@@ -8,7 +8,7 @@ namespace NewLibrary
 {
     internal class Car
     {
-        private int _counter;
+        private static int _counter;
         public int Id;
         public string Name;
         public int Speed;
